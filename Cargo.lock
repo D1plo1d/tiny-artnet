@@ -175,9 +175,9 @@ dependencies = [
 
 [[package]]
 name = "tiny-artnet-bytes-no-atomic"
-version = "1.2.1"
+version = "1.2.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "dc5309327cd1d6c532d9ebef528488ab325abed83e5632b556c47e723e23c80b"
+checksum = "c26c57f0398a7fd68af1bee8759e7b3b915595cbf30862f5c61524a09ba48af3"
 
 [[package]]
 name = "unicode-ident"

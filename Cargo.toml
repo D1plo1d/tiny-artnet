@@ -10,7 +10,7 @@ repository = "https://github.com/D1plo1d/tiny-artnet"
 
 [dependencies]
 nom = { version = "7.1.1", default-features = false, features = ["alloc"] }
-tiny-artnet-bytes-no-atomic = { version = "1.2.1", default-features = false }
+tiny-artnet-bytes-no-atomic = { version = "1.2.2", default-features = false }
 
 [dev-dependencies]
 local-ip-address = "0.4.8"

@@ -2,6 +2,9 @@
 name = "tiny-artnet"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+description = "A no_std ArtNet 4 implementation for creating microcontroller-based ArtNet Nodes."
+repository = "https://github.com/D1plo1d/tiny-artnet"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

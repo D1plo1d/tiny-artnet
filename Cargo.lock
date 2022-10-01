@@ -165,7 +165,7 @@ dependencies = [
 
 [[package]]
 name = "tiny-artnet"
-version = "0.1.2"
+version = "0.1.3"
 dependencies = [
  "local-ip-address",
  "mac_address",

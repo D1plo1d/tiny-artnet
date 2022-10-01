@@ -1,6 +1,6 @@
 [package]
 name = "tiny-artnet"
-version = "0.1.2"
+version = "0.1.3"
 edition = "2021"
 license = "MIT"
 description = "A no_std ArtNet 4 implementation for creating microcontroller-based ArtNet Nodes."

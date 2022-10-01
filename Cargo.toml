@@ -1,0 +1,14 @@
+[package]
+name = "tiny-artnet"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bytes = { git = "https://github.com/taiki-e/bytes.git", branch = "cfg_target_has_atomic", default-features = false }
+nom = { version = "7.1.1", default-features = false, features = ["alloc"] }
+
+[dev-dependencies]
+local-ip-address = "0.4.8"
+mac_address = "1.1.4"

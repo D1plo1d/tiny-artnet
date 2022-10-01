@@ -14,6 +14,8 @@
 /// Not Implemented: Literally everything else. Pull Request are welcome.
 ///
 /// ArtNet 4 Spec: https://artisticlicence.com/WebSiteMaster/User%20Guides/art-net.pdf
+extern crate tiny_artnet_bytes_no_atomic as bytes;
+
 mod poll_reply;
 pub use poll_reply::PollReply;
 

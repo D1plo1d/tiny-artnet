@@ -21,11 +21,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "14c189c53d098945499cdfa7ecc63567cf3886b3332b312a5b4585d8d3a6a610"
 
 [[package]]
-name = "bytes"
-version = "1.0.1"
-source = "git+https://github.com/taiki-e/bytes.git?branch=cfg_target_has_atomic#dc925c8e9e1b4fecff9394dfa53f78586ae79093"
-
-[[package]]
 name = "cc"
 version = "1.0.73"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -172,11 +167,17 @@ dependencies = [
 name = "tiny-artnet"
 version = "0.1.0"
 dependencies = [
- "bytes",
  "local-ip-address",
  "mac_address",
  "nom",
+ "tiny-artnet-bytes-no-atomic",
 ]
+
+[[package]]
+name = "tiny-artnet-bytes-no-atomic"
+version = "1.2.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "dc5309327cd1d6c532d9ebef528488ab325abed83e5632b556c47e723e23c80b"
 
 [[package]]
 name = "unicode-ident"
